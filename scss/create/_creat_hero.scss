@@ -1,0 +1,65 @@
+.creat_hero {
+  padding: 0 24px;
+  margin-top: 40px;
+  margin-bottom: 180px;
+}
+
+.creat_hero__container {
+  background-repeat: no-repeat;
+  background-image: url("/img/creat-hero-mob-img.png");
+  background-size: 768px;
+  background-position: center;
+}
+
+.creat_hero__des {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 136px;
+}
+
+.creat_hero__des__title {
+  color: #fefcf7;
+  font-family: Fraunces;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 40px;
+}
+
+.creat_hero__des__text {
+  color: #fefcf7;
+  font-family: Barlow;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  opacity: 0.8;
+  margin-top: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .creat_hero__container {
+    background-image: url("/img/creat-hero-tb-bg.png");
+    background-size: 922px;
+  }
+
+  .creat_hero__des {
+    max-width: 450px;
+    text-align: start;
+    padding-left: 50px;
+  }
+}
+
+@media screen and (min-width: 922px) {
+  .creat_hero__container {
+    background-image: url("../img/creat-hero-main-bg.png");
+    background-size: 1400px;
+  }
+
+  .creat_hero__des__title {
+    max-width: 490px;
+    font-size: 52px;
+  }
+
+  .creat_hero__des__text {
+    max-width: 350px;
+  }
+}

@@ -1,0 +1,143 @@
+.servise {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.servise__container {
+  background-repeat: no-repeat;
+  background-image: url("../img/servis-bg-mobile.png");
+  background-position: top center;
+  background-size: 768px 902px;
+}
+
+.servise_cards {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.servise_cards__item {
+  min-width: 279px;
+  text-align: center;
+  padding-top: 72px;
+  //   padding: 72px 34px 51px 34px;
+  border-radius: 8px;
+  background-color: #0e8784;
+}
+
+.servise__des_title {
+  color: #fefcf7;
+  text-align: center;
+  font-family: Fraunces;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 28px;
+  margin-bottom: 213px;
+  padding-top: 64px;
+}
+
+.servise__des_text {
+  color: #fefcf7;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  opacity: 0.8;
+  display: none;
+}
+
+.servise_cards__icon {
+  width: 72px;
+  height: 72px;
+}
+
+.servise_cards__title {
+  color: #fefcf7;
+  font-family: Fraunces;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+  margin-top: 56px;
+}
+
+.servise_cards__text {
+  color: #fefcf7;
+  font-family: Barlow;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 24px;
+  padding-left: 34px;
+  padding-right: 34px;
+  padding-bottom: 51px;
+}
+
+.servise_cards__icon_deliver {
+    width: 72px;
+    height: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .servise__des_text {
+    display: block;
+    margin-bottom: 70px;
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .servise__des_title {
+    margin-bottom: 24px;
+  }
+
+  .servise_cards__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 55px;
+    padding: 0;
+  }
+
+  .servise__cards_des {
+    max-width: 344px;
+    text-align: start;
+  }
+
+  .servise_cards__text {
+    // padding: 0;
+    padding-left: 0;
+    padding-bottom: 41px;
+  }
+
+  .servise__container {
+    background-size: 922px 620px;
+  }
+}
+
+@media screen and (min-width: 922px) {
+  .servise_cards__item {
+    max-width: 350px;
+    flex-direction: column;
+    padding-top: 50px;
+  }
+
+  .servise__cards_des {
+    text-align: center;
+  }
+
+  .servise_cards__text {
+    max-width: 255px;
+    padding-right: 0;
+  }
+
+  .servise_cards {
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 30px;
+  }
+
+  .servise__container {
+    background-size: 1000px 500px;
+  }
+}
